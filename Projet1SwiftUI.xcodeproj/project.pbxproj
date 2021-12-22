@@ -21,7 +21,6 @@
 		C0FEBCBF27733839008B3291 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C0FEBCC427733839008B3291 /* Projet1SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Projet1SwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0FEBCCA27733839008B3291 /* Projet1SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Projet1SwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C0FEBCCC27733839008B3291 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,7 +45,6 @@
 			isa = PBXGroup;
 			children = (
 				C0FEBCBC27733838008B3291 /* Shared */,
-				C0FEBCCB27733839008B3291 /* macOS */,
 				C0FEBCC527733839008B3291 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -68,14 +66,6 @@
 				C0FEBCCA27733839008B3291 /* Projet1SwiftUI.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		C0FEBCCB27733839008B3291 /* macOS */ = {
-			isa = PBXGroup;
-			children = (
-				C0FEBCCC27733839008B3291 /* macOS.entitlements */,
-			);
-			path = macOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
